@@ -78,7 +78,7 @@ You should edit and change the url so that the port is your own backend port.
  
 ### Folder Structure
 
-![frontend-folder-structure](https://drive.google.com/file/d/1_g2H7_jtRZ4-QqiDoCA9U9jofhxcyjn2/view?usp=sharing)
+![frontend-folder-structure](https://res.cloudinary.com/dzuabw8qc/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1681080977/frontend-folder-structure_yiv6fn.jpg)
 
 ### What I pay attention to and care about when developing frontend
 
