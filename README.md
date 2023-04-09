@@ -113,7 +113,7 @@ You should edit and change the url so that the port is your own backend port.
 
 ### Folder Structure
 
-![backend-folder-structure](https://drive.google.com/file/d/1bKt3JCAcy3eyAuEMKbbcWPSG8hdhNjHG/view?usp=sharing)
+![backend-folder-structure](https://res.cloudinary.com/dzuabw8qc/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1681081098/backend-folder-structure_pcqlno.jpg)
 
 ### What I pay attention to and care about when developing backend
 
