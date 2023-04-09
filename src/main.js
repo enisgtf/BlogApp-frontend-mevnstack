@@ -21,7 +21,7 @@ app.mount('#app')
 
 
 /* axios api config */
-axios.defaults.baseURL = 'https://blogapp-mevnstack-enisgtf.onrender.com/api/v1'
+axios.defaults.baseURL = 'https://blogapp-backend-api.onrender.com/api/v1'
 
 // watching currentToken in store for sending on req.headers
 const store = useStore()
