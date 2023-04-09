@@ -78,7 +78,7 @@ You should edit and change the url so that the port is your own backend port.
  
 ### Folder Structure
 
-![frontend-folder-structure](https://blogapp-backend-api.onrender.com/api/v1/blogs/images/1681067706919-frontend-folder-structure.png)
+![frontend-folder-structure](https://drive.google.com/file/d/1_g2H7_jtRZ4-QqiDoCA9U9jofhxcyjn2/view?usp=sharing)
 
 ### What I pay attention to and care about when developing frontend
 
@@ -113,7 +113,7 @@ You should edit and change the url so that the port is your own backend port.
 
 ### Folder Structure
 
-![backend-folder-structure](https://blogapp-backend-api.onrender.com/api/v1/blogs/images/1681068518353-backend-folder-structure.png)
+![backend-folder-structure](https://drive.google.com/file/d/1bKt3JCAcy3eyAuEMKbbcWPSG8hdhNjHG/view?usp=sharing)
 
 ### What I pay attention to and care about when developing backend
 
@@ -133,37 +133,39 @@ You should edit and change the url so that the port is your own backend port.
  - Asynchronous codes were used where necessary, carefully following the syntax.
  - Blog and user schemas have been prepared carefully and in as much detail as necessary.
  - A token with a personalized payload was created during the login process and sent as a response.
- - İmportant information was not carried in responses against every request due to security measures. 
+ - Important information was not carried in responses against every request due to security measures. 
  - Both req.params and req.query were used.
  - Created many RESTful APIs, POST, GET, PUT, DELETE structures:
-    /* POST */
-    router.post('/create', isAuthorized, blogController.createBlog)
-    router.post('/:blogId/commentCreate', isAuthorized, blogController.commentCreate)
-    router.post('/:blogId/dislike', isAuthorized, blogController.createDislike)
-    router.post('/:blogId/like', isAuthorized, blogController.createLike)
-    router.post('/uploadCover', isAuthorized, coverUpload.single('coverImg'), blogController.uploadCover)
-    router.post('/uploadImage', isAuthorized, imageUpload.single('blogImg'), blogController.uploadImg)
-    router.post("/register", userController.createUser);
-    router.post("/login", userController.loginUser);
-    
-    /* GET */
-    router.get('/images/covers/:imageName', blogController.getCover)
-    router.get('/images/:imageName', blogController.getImage)
-    router.get('/', blogController.getAllBlogs)
-    router.get('/most-viewed', blogController.getMostViewedFourBlogs)
-    router.get('/homeblogs', blogController.getHomeBlogs)
-    router.get('/user/:authorId', blogController.getUserBlogs)
-    router.get('/:blogId', blogController.getBlog)
-    router.get("/:userId", userController.getUser);
-      
-    /* PUT */
-    router.put('/:blogId', isAuthorized, blogController.updateBlog)
-    router.put('/:blogId/:commentId/commentUpdate', isAuthorized, blogController.updateComment)
-    router.put("/:id", isAuthorized, userController.updateUser);
-    
-    /* DELETE */
-    router.delete('/:blogId', isAuthorized, blogController.deleteBlog)
-    router.delete('/:blogId/:commentId/commentDelete', isAuthorized, blogController.deleteComment)
-    router.delete("/:id", isAuthorized, userController.deleteUser);
+ 
+>     /* POST */
+>     router.post('/create', isAuthorized, blogController.createBlog)
+>     router.post('/:blogId/commentCreate', isAuthorized, blogController.commentCreate)
+>     router.post('/:blogId/dislike', isAuthorized, blogController.createDislike)
+>     router.post('/:blogId/like', isAuthorized, blogController.createLike)
+>     router.post('/uploadCover', isAuthorized, coverUpload.single('coverImg'), blogController.uploadCover)
+>     router.post('/uploadImage', isAuthorized, imageUpload.single('blogImg'), blogController.uploadImg)
+>     router.post("/register", userController.createUser);
+>     router.post("/login", userController.loginUser);
+>     
+>     /* GET */
+>     router.get('/images/covers/:imageName', blogController.getCover)
+>     router.get('/images/:imageName', blogController.getImage)
+>     router.get('/', blogController.getAllBlogs)
+>     router.get('/most-viewed', blogController.getMostViewedFourBlogs)
+>     router.get('/homeblogs', blogController.getHomeBlogs)
+>     router.get('/user/:authorId', blogController.getUserBlogs)
+>     router.get('/:blogId', blogController.getBlog)
+>     router.get("/:userId", userController.getUser);
+>       
+>     /* PUT */
+>     router.put('/:blogId', isAuthorized, blogController.updateBlog)
+>     router.put('/:blogId/:commentId/commentUpdate', isAuthorized, blogController.updateComment)
+>     router.put("/:id", isAuthorized, userController.updateUser);
+>     
+>     /* DELETE */
+>     router.delete('/:blogId', isAuthorized, blogController.deleteBlog)
+>     router.delete('/:blogId/:commentId/commentDelete', isAuthorized, blogController.deleteComment)
+>     router.delete("/:id", isAuthorized, userController.deleteUser);
 
-
+## Conclusion
+As a result, I have learned a lot by doing this application and I will continue to learn. I will upload new projects to github as I make them. follow me! I'm very young and have a long way to go!
