@@ -40,7 +40,7 @@ export const useStore = defineStore("store", {
         this.showMessage = false;
         this.message = ""
         this.messageSuccess = null
-      }, 2000);
+      }, 5000);
     },
 
     checkLocalStorage(){
