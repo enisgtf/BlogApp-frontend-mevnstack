@@ -35,6 +35,9 @@ import axios from "axios"
 const store = useStore()
 const { currentToken } = storeToRefs(store)
 
+
+store.displayMessage("If the images are not loading due to the FREE backend server :/ , wait 1 minute and refresh the page!", false)
+
 /* blogs from API */
 const HomeBlogs = ref([])
 const MostViewed = ref([])
